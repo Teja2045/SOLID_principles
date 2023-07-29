@@ -22,6 +22,15 @@ package solid.open_closed;
 interface AreaPrinter {
     void print(long area);
 }
+/*
+class AreaPrinter {
+    public void print(long area) {
+      System.out.println(area);
+    }
+}
+
+the other classes will extend this?
+*/
 
 class JsonAreaPrinter implements AreaPrinter {
     @Override
